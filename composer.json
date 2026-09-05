@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "^1.2.5"
+        "kinetis/framework": "^1.4.0"
     },
     "require-dev": {
         "infection/infection": "^0.35.0",
