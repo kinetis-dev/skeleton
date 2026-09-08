@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main"
+        "kinetis/framework": "^1.5.0"
     },
     "require-dev": {
         "infection/infection": "^0.35.0",
@@ -28,12 +28,6 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../framework"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
