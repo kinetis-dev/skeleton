@@ -10,12 +10,12 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main"
+        "kinetis/framework": "^1.11.3"
     },
     "require-dev": {
         "infection/infection": "^0.35.0",
-        "kinetis/mcp-protocol": "dev-main",
-        "kinetis/orbitron": "dev-main",
+        "kinetis/mcp-protocol": "^1.0.0",
+        "kinetis/orbitron": "^1.0.0",
         "phpstan/phpstan": "^2.2.8",
         "phpunit/phpunit": "^13.3.3",
         "vimeo/psalm": "^6.17"
@@ -30,20 +30,6 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../orbitron"
-        },
-        {
-            "type": "path",
-            "url": "../mcp-protocol"
-        },
-        {
-            "type": "path",
-            "url": "../framework"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
